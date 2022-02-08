@@ -1,0 +1,17 @@
+@use 'sass:math';
+$size-border1: math.random()*100%;
+$size-border2: math.random()*100%;
+$size-border3: math.random()*100%;
+$size-border4: math.random()*100%;
+$size-border5: (math.random()*100) + 100%;
+$size-border6: (math.random()*100) + 100%;
+$randCubicBezBarMen: cubic-bezier(math.random(), math.random(), math.random(), math.random()+0.5);
+$randCubicBezBarHome: cubic-bezier(math.random(), math.random(4)*math.random(), math.random(), math.random(3)*math.random()*math.random());
+$TopPosBar: 20%;
+$ColorHover: linear-gradient(34deg #020038bd #001f38d1 #210236d1 #023236d1 #360202d1);
+
+
+@function randomColor(){
+     $randColor:  rgb(math.random(255), math.random(255), math.random(255));
+    @return $randColor;
+}

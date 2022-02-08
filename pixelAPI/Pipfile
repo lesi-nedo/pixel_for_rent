@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "~=3.2"
+psycopg2-binary = "==2.8.6"
+django-environ = "*"
+django-admin-honeypot = "*"
+django-guardian = "*"
+djangorestframework = "*"
+drf-yasg = "*"
+pretty-errors = "*"
+django-cors-headers = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
